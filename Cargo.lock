@@ -1207,10 +1207,11 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-fb-yt"
+name = "rust-fb-crud"
 version = "0.1.0"
 dependencies = [
  "actix-web",
+ "derive_more",
  "firebase-rs",
  "serde",
  "serde_json",
